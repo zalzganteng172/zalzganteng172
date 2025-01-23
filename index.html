@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Fertical Legends</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #4CB5F5;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .product {
+            border: 1px solid #ddd;
+            border-radius: 20px;
+            padding: 100px;
+            margin: 100px;
+            display: inline-block;
+            text-align: center;
+            width: calc(25% - 25px);
+            vertical-align: top;
+            background-color: #fff;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+        .product h3 {
+            margin: 10px 0;
+        }
+        .product p {
+            color: #777;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header><h1>Dashboard</h1>
+  <div class="card">
+    <h3>Jam 
+    <style>
+    #clock {
+      font-size: 36px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div id="clock"></div>
+
+  <script>
+    function showTime() {
+      var date = new Date();
+      var h = date.getHours();
+      var m = date.getMinutes();
+      var s = date.getSeconds();
+      var time = h + ":" + m + ":" + s;
+      document.getElementById('clock').innerText = time;
+      document.getElementById('clock').textContent = time;
+      setTimeout(showTime, 1000);
+    }
+
+    showTime();
+  </script></h3>
+    <h3>Tanggal <body>
+  <p id="tanggal"></p>
+  
+  <script>
+    function showDate() {
+      var today = new Date();
+      var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+      document.getElementById("tanggal").innerHTML = date;
+    }
+    showDate();
+  </script>
+</body></h3>
+  </div></header>
+
+<nav>
+    <a href="produk.html">Produk</a>
+    <a href="tentangkami.html">Tentang Owner</a>
+    <a href="hubungi.html">Hubungi</a>
+</nav>
+
+<div class="container">
+    <div class="product">
+        <h2> <a href="produk.html">Produk</a></h2>
+    </div>
+    <div class="product">
+        <h2> <a href="tentangkami.html">Tentang Owner</a></h2>
+    </div>
+        <div class="product">
+        <h2> <a href="hubungi.html">Hubungi Pemilik</a></h2>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; Fertical Legends Shop.Terimakasih Telah Membeli Disini.</p>
+</footer>
+
+</body>
+</html>
